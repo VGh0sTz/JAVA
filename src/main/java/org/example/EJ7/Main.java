@@ -24,6 +24,7 @@ public class Main {
                 o.CrearConstructor(SeatF1,con);
                 o.CrearPiloto(Carlos,con);
                 //COMPROBAMOS QUE SE INSERTO
+
                 Piloto p2 = o.LeerPiloto(42,con);
                 if (Carlos.equals(p2)) {
                     System.out.println("IGUALES");
